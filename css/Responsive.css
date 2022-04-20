@@ -1,0 +1,75 @@
+
+
+
+
+
+@media (max-width: 575.98px) {
+
+.banner .col-md-6:nth-of-type(2) .inner-image {
+    position: absolute;
+    top: 84%;
+}
+.row:nth-of-type(1) {
+    padding-left: 0px;
+}
+.Connect .row{
+    flex-flow: column-reverse;
+}
+.Connect .row .col-md-6{
+    margin-bottom: 60px;
+}
+.Familiar .row .col-md-6 {
+    margin-bottom: 60px;
+}
+.packages-title {
+    text-align: center;
+    padding-top: 200px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.packages {
+    background-image: url(../Images/Rectangle\ 49.png);
+    background-repeat: no-repeat;
+    background-position: center!important;
+    background-size: cover;
+}
+.owl-carousel .owl-stage {
+    position: relative;
+    display: contents;
+    
+    touch-action: manipulation;
+    -moz-backface-visibility: hidden;
+}
+.item{
+    margin-bottom: 20px;
+}
+.inner-prductivity-image img:nth-of-type(1) {
+    width: 22%;
+    position: absolute;
+    top: 27%;
+    left: 4%;
+}
+.inner-prductivity-image img:nth-of-type(3) {
+    position: absolute;
+    top: 26%;
+    width: 23%;
+    left: 73%;
+}
+.inner-founders {
+    display: flex;
+    flex-direction: column;
+}
+.inner-founders-text {
+    padding-left: 0px;
+}
+.owl-carousel-two .owl-stage {
+    position: relative;
+    display: contents;
+    -ms-touch-action: pan-Y;
+    touch-action: manipulation;
+    -moz-backface-visibility: hidden;
+}
+.owl-carousel-two {
+    max-width: 100%;
+}
+
+}

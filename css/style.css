@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap');
+
+
+*{
+    font-family: 'Space Grotesk',
+    sans-serif;
+}
+
+.col-md-6{
+    padding: 0px;
+}
+
+.row {
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.row:nth-of-type(1) {
+    padding-left: 50px;
+}
+
+.col-md-6 {
+    padding: 0px;
+}
+
+.inner-image img {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+/* style for header */
+
+header{
+
+    
+}
+
+nav{
+    background-color: transparent;
+}
+
+
+
+.inner-header{
+    background-image: url("../Images/Headerback.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.inner-text h1{
+    color: white;
+    font-family: 'Space Grotesk',
+    sans-serif;
+}
+.inner-text p{
+    color: white;
+}
+
+.button button:nth-of-type(1){
+    border: none;
+    border-radius: 30px;
+    padding: 8px 25px;
+    background-color: #8828FF;
+    color: white;
+
+}
+.button button:nth-of-type(2){
+    border: none;
+    background-color: transparent;
+    color: white;
+
+}
+
+.nav-link{
+    color: #8828FF!important;
+}
+
+.login{
+    border-radius: 30px;
+    border-color: #8828FF;
+    background-color: transparent;
+    color: #8828FF;
+}
+
+.banner{
+   padding: 120px 0px 600px 0px ;
+}
+.banner .col-md-6:nth-of-type(2) .inner-image{
+    position: absolute;
+    top: 20%;
+}
+
+/* end */
+
+
+/* style for Connect */
+
+
+.col-md-6 .inner-text{
+    font-family: 'Space Grotesk',
+    sans-serif;
+
+}
+ .col-md-6 .inner-text p{
+    color: black;
+}
+.col-md-6 .inner-text button{
+    padding: 8px 30px;
+    background-color: #F8F2FF;
+    color: #8828FF;
+    border-radius: 30px;
+    border: none;
+
+}
+
+/* end */
+
+/* style for familiar */
+
+.Familiar{
+    padding: 50px 0px;
+}
+
+/* end */
+
+
+
+
+
+
+
+
+
+
+
+
+/* style for packages */
+
+.packages{
+    background-image: url(../Images/Rectangle\ 49.png);
+    background-repeat: no-repeat;
+    background-position: start;
+    background-size: cover;
+  
+}
+
+.packages-title{
+    text-align: center;
+    padding-top: 130px;
+    font-family: 'Space Grotesk',
+    sans-serif;
+
+}
+.details-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.packages .row{
+    margin-top: 20px;
+    padding-bottom: 300px;
+}
+
+.packages .row .col-md-4{
+    border-radius: 20px!important;
+    border: none!important;
+   
+}
+.package-button{
+    padding: 12px 30px;
+    margin: 0px 6px;
+    border-radius: 30px;
+    border: none;
+}
+
+.top-part{
+    background-color: #8828FF;
+    padding: 20px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    color: white;
+}
+
+.top-part .price{
+    display: flex;
+    padding: 12px 0px;
+    align-items: center;
+ 
+}
+.top-part .price span:nth-of-type(1){
+    font-size: 48px;
+}
+.top-part .price span:nth-of-type(2){
+    margin-left: 15px;
+    font-size: 18px;
+  
+}
+.bottom-part{
+    margin-top: 20px;
+    padding: 20px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.icon-line{
+   padding-bottom: 6px;
+   color: #8828FF;
+    font-family: 'Space Grotesk',
+    sans-serif;
+}
+.icon-line-button{
+    padding: 8px 30px;
+    background-color: #F8F2FF;
+    color: #8828FF;
+    border-radius: 30px;
+    border: none;
+
+}
+.card{
+    position: relative;
+    margin: 30px 0px;
+}
+.card .card-ellipse{
+    position: absolute;
+    left: 26%;
+   
+}
+.card .card-half-ellipse {
+    position: absolute;
+    left: 15%;
+
+}
+.card .badge{
+    position: absolute;
+    padding: 8px 28px;
+    color: black;
+    border-radius: 0px;
+    left: 50%;
+    display: none;
+    top: 0;
+    background-color:#FFDA58 ;
+
+}
+
+.card:hover{
+    background-color: #8828FF;
+}
+.card:hover .badge{
+    display: block;
+}
+.card:hover .inner-bottom-part {
+    z-index: 1;
+   
+}
+.card:hover .inner-bottom-part .icon-line{
+    color: white;
+}
+.card:hover .bottom-part{
+    z-index: 10;
+  
+    
+
+}
+
+
+/* end */
+
+/* style for ideas */
+.Ideas{
+    margin:60px 0px; 
+}
+
+.ideas-button{
+    padding: 8px 32px;
+    border: none;
+    background-color:#8828FF;
+    border-radius: 30px;
+    color: white;
+
+}
+
+/* end */
+
+
+/* style for best selling courses */
+.box{
+    display: flex;
+    border: 0.5 solid gray;
+
+}
+
+.box .image-box{
+    width:70%;
+    margin: 10px;
+}
+.owl-carousel{
+    width: 100%;
+}
+
+.owl-carousel .item{
+    border-radius: 25px;
+    background: #ffffff;
+    box-shadow: 20px 20px 60px #d9d9d9,
+    -20px -20px 60px #ffffff;
+}
+
+/* end */
+
+
+/* style for productivity */
+
+.productivity{
+    margin: 60px 0px;
+    text-align: center;
+}
+.inner-prductivity-image{
+    position: relative;
+}
+
+.inner-prductivity-image img:nth-of-type(1) {
+    position: absolute;
+    top: 27%;
+    left: 4%;
+}
+.inner-prductivity-image img:nth-of-type(3) {
+    position: absolute;
+    top: 26%;
+    left: 73%;
+}
+
+
+
+/* end */
+
+
+/* style for Allfounders */
+.inner-founders{
+    display: flex;
+}
+
+
+.inner-founders-text{
+    padding-left: 160px;
+}
+
+.box-item{
+    padding: 30px;
+
+}
+
+.box-item .image-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.owl-carousel-two .owl-item img {
+    display: block;
+    width: 12%!important;
+}
+
+.owl-carousel-two{
+    max-width: 60%;
+
+}
+
+.owl-carousel-two .item {
+    border-radius: 25px;
+    background: #ffffff;
+    box-shadow: 20px 20px 60px #d9d9d9,
+        -20px -20px 60px #ffffff;
+}
+/* End */
+
+
+/* style for footer */
+footer{
+    margin-top: 60px;
+    padding: 50px 0px;
+    background-color: rgb(10, 5, 47);
+    color: white;
+}
+footer .col-md-3 ul>li{
+    list-style: none;
+}
+
+footer .col-md-3 ul>li>a{
+    text-decoration: none;
+    color: gray;
+}
+/* end */
