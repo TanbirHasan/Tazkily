@@ -80,6 +80,7 @@ nav{
 .login{
     border-radius: 30px;
     border-color: #8828FF;
+    border: 0.5px solid #8828FF;
     background-color: transparent;
     color: #8828FF;
 }
@@ -145,7 +146,7 @@ nav{
 
 }
  .col-md-6 .inner-text p{
-    color: black;
+    color: white;
 }
 .col-md-6 .inner-text .browse{
     padding: 8px 30px;
@@ -627,3 +628,55 @@ footer .col-md-3 a {
     text-align: center;
 }
 /* end */
+
+
+
+.inner-footer{
+    display: flex;
+    justify-content: space-around;
+   
+   
+}
+
+.tazikel{
+    width: 25%;
+}
+
+.side-things .col-md-3{
+    width: 30%;
+}
+
+
+
+.side-things{
+    width: 70%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.made-with{
+    margin-top: 100px;
+}
+
+.made-with i{
+    color: red;
+}
+
+.copy{
+   position: absolute;
+    color: #ADABB7;
+    font-size: 18px;
+    top: 82%;
+    transform: translate(60px, 10px);
+}
+
+.help{
+    margin-top: 100px;
+    list-style: none;
+}
+
+.help a{
+
+    text-decoration: none;
+    color: #ADABB7;
+}

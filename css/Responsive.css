@@ -189,5 +189,36 @@
     max-width: 100%;
 }
 
+.tazikel {
+    width: 100%;
+}
+.inner-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.side-things {
+    width: 100%;
+    display: -webkit-inline-box;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.side-things .col-md-3 {
+    width: 50%;
+}
+
+.made-with{
+    margin-top: 40px;
+}
+.copy {
+
+    color: #ADABB7;
+    transform: translate(40px, 5px);
+    top: 104%;
+  font-size: 18px;
+
+}
+
 }
 
