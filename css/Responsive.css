@@ -3,11 +3,24 @@
 
 
 
-@media (max-width: 575.98px) {
+@media  (max-width: 575.98px) {
 
 .banner .col-md-6:nth-of-type(2) .inner-image {
     position: absolute;
-    top: 84%;
+    top: 70%;
+}
+.banner {
+    padding: 60px 0px 700px 0px;
+}
+.banner .inner-text h1{
+    font-size: 34px;
+}
+.banner .inner-text p {
+    font-size: 16px;
+    color: white;
+}
+.banner .col-md-6:nth-of-type(1) {
+    width: 100%;
 }
 .row:nth-of-type(1) {
     padding-left: 0px;
@@ -18,8 +31,96 @@
 .Connect .row .col-md-6{
     margin-bottom: 60px;
 }
+.Connect .col-md-6 .inner-text h2{
+    font-size: 28px;
+}
+.Connect .col-md-6 .inner-text p {
+    font-size: 16px;
+}
+.Connect .side-ellipse {
+    position: absolute;
+    right: 0%;
+    top: 91%;
+}
+.Connect .side-inner-ellipse {
+        position: absolute;
+        top: 92%;
+        right: 0%;
+        width: 80px;
+    
+}
+.Connect .side-inner-ellipse img{
+    width: 80px;
+
+}
+
+.Connect .side-ellipse img{
+    width: 90px;
+}
 .Familiar .row .col-md-6 {
     margin-bottom: 60px;
+}
+.Familiar .col-md-6 .inner-text h2{
+    font-size:28px;
+}
+.Familiar .col-md-6 .inner-text p {
+    font-size: 16px;
+}
+.comment-one {
+    display: flex;
+    margin-bottom: 39px;
+    align-items: flex-end;
+}
+.Allfounders {
+    background-image: url(../Images/Group\ 1145.png);
+    background-position: start;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0px;
+}
+.comment-two {
+    display: flex;
+    margin-bottom: 39px;
+    align-items: flex-end;
+}
+.comment-three {
+    display: flex;
+    margin-bottom: 39px;
+    align-items: flex-end;
+}
+.comment .lineone {
+    position: absolute;
+    left: 15%;
+    width: 40px;
+    transform: translate(-1px, -30px);
+    height: 6px;
+    border-radius: 5px;
+    background-color: #8828FF;
+}
+.comment .linetwo {
+    position: absolute;
+    left: 83%;
+    transform: translate(-46px, -30px);
+    width: 40px;
+    height: 6px;
+    border-radius: 5px;
+    background-color: #8828FF;
+}
+.comment .linethree {
+    position: absolute;
+    left: 55%;
+    width: 40px;
+    transform: translate(12px, -30px);
+    height: 6px;
+    border-radius: 5px;
+    background-color: #8828FF;
+}
+
+.packages-title h2{
+    font-size: 28px;
+}
+.packages-title p {
+    font-size: 16px;
 }
 .packages-title {
     text-align: center;
@@ -41,6 +142,22 @@
 }
 .item{
     margin-bottom: 20px;
+}
+
+
+.Ideas .row {
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+}
+.Ideas .row .col-md-4{
+   
+    width: 100%;
+   
+}
+.Ideas h2{
+    font-size: 28px;
 }
 .inner-prductivity-image img:nth-of-type(1) {
     width: 22%;
@@ -73,3 +190,4 @@
 }
 
 }
+
